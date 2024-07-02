@@ -7,8 +7,10 @@ import CombiBrains from "./pages/CombiBrains";
 import NoPage from "./pages/NoPage";
 import ContactUs from "./pages/ContactUs";
 import SaleOfParts from "./pages/SaleOfParts";
+import { HelmetProvider } from 'react-helmet-async';
 function App() {
   return <>
+  <HelmetProvider>
   <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainLayout />}>
@@ -21,6 +23,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    </HelmetProvider>
   </>
 }
 

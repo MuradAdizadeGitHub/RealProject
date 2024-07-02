@@ -1,0 +1,33 @@
+.topbar {
+  background-color: rgb(9, 30, 62);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar-items {
+  max-width: 1320px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  i {
+    color: white;
+  }
+}
+
+.topbar-left {
+  display: flex;
+  gap: 50px;
+
+  p {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .topbar {
+    display: none;
+  }
+}

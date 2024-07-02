@@ -1,0 +1,78 @@
+#whyDoWe {
+  padding: 100px 0;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .titles {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    h2 {
+      font-size: 20px;
+      font-weight: 800;
+      margin: 0 0 8px;
+      color: #06A3DA;
+    }
+
+    h3 {
+      font-size: 40px;
+      font-weight: 800;
+
+    }
+  }
+
+  .square {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: #06A3DA;
+  }
+
+  h4 {
+    font-size: 24px;
+    margin: 16px 0 8px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #6B6A75;
+  }
+}
+.section-combimaster-img {
+  position: relative;
+  background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url('https://alovservisimages.netlify.app/img/1666610045282076356737da6e6d.jpg') center center no-repeat;
+  background-size: cover;
+  min-height: 29rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-combimaster-text{
+font-size: 3.6rem;
+font-weight: bold;
+color: white;
+margin-top: 90px; 
+ text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .section-combimaster-text{
+    font-size: 3rem;
+  
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-combimaster-text{
+    font-size: 2.7rem;
+    }
+}

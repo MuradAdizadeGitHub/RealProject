@@ -1,0 +1,262 @@
+.section-home-top {
+    position: relative;
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url('https://alovservisimages.netlify.app/img/heating-central-gas-furnace-AFRW6SQ-copy%20(1).jpg') center center no-repeat;
+    background-size: cover;
+    min-height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-home-top-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    flex-direction: column;
+    gap: 1.2rem;
+    max-width: 45rem;
+    width: 100%;
+}
+
+.kombiustasi-btn {
+    background-color: #06A3DA;
+
+    font-weight: 600;
+    font-size: 16px;
+    border-style: none;
+    max-width: 200px;
+    width: 100%;
+
+    a {
+        color: white;
+    }
+}
+
+.bizimleelaqe-btn {
+    font-weight: 600;
+    font-size: 16px;
+    border-style: none;
+    max-width: 200px;
+    width: 100%;
+
+    a {
+        color: black;
+    }
+}
+
+.alovservishead {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.alovservistext {
+    font-size: 5rem;
+    color: white;
+}
+
+.section-home-top-btn {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+
+    button {
+        padding: 1rem;
+
+    }
+
+}
+
+.home-aboutus-img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.home-card {
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(238, 249, 255);
+}
+
+.home-cards {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+@media only screen and (max-width: 991px) {
+    .home-cards {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .alovservistext {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section-home-top-btn{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .alovservistext {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .home-cards {
+        grid-template-columns: 1fr;
+    }
+    .home-aboutus-img {
+        padding: 10px;
+        max-width: 800px;
+        width: 100%;
+    }
+}
+
+.section-home-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-about-top {
+    font-size: 20px;
+    font-weight: 800;
+    color: #06A3DA;
+}
+
+.home-about-head {
+    font-size: 40px;
+    font-weight: 800;
+    color: #000000;
+}
+
+.section-home-about {
+    padding: 50px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+@media only screen and (max-width: 991px) {
+    .section-home-about {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+}
+
+
+
+
+.home-services-general {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.services-items-opinion-col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.services-items-opinion {
+display: grid;
+grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    gap: 100px;
+
+    p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
+
+.home-card-head {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.home-card-text {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+}
+
+.home-card-tel-head {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.home-card-tel {
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #06A3DA;
+}
+
+.services-staff {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services-items-opinion-col-3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.callmenow{
+    max-width: 230px;
+    width: 100%;
+    background-color: #06A3DA;
+    border-style: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    a{
+        color: white;
+    }
+}
+.callmenownumber{
+    font-size: 25px;
+    font-weight: 700;
+    color: #06A3DA;
+}
+.callmenowtext{
+    font-size: 20px;
+    font-weight: 600;
+
+}

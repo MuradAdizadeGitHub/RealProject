@@ -1,4 +1,3 @@
-import React from 'react'
 import {Helmet} from 'react-helmet-async';
 
 function NoPage() {
@@ -12,7 +11,7 @@ function NoPage() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center'
-            }}>Error 404
+            }}>Error 404 Not Found
             </div>
         </>
     )

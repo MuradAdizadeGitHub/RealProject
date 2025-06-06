@@ -6,6 +6,7 @@ function CombiBoards() {
     const { t } = useTranslation();
     return (
        <>
+           {/*asasdasd*/}
         <section className='section-combibrains-img'>
         <div className="section-combibrains-head">
             <p className="section-combibrains-text">

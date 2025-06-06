@@ -12,6 +12,7 @@ function NoPage() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
+                background: 'red'
             }}>Error 404
             </div>
         </>

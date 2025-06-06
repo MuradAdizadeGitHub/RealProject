@@ -30,14 +30,14 @@ jobs:
             echo "Dist directory not found!"; exit 1;
           fi
 
-      - name: Deploy to FTP
+      - name: Deploy to FTP (to public_html)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/
-          server-dir: httpdocs/
+          server-dir: public_html/
 
-      - name: Cleanup old files (optional)
-        run: rm -rf dist
+      - name: Cleanup local dist (optional)
+        run: rm -rf dist/

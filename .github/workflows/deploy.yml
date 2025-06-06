@@ -3,7 +3,7 @@ name: Auto Deploy React App to Plesk via FTP
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:

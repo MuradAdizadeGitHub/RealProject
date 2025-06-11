@@ -57,7 +57,7 @@ function Home() {
                 <div>
                   <p className="callmenowtext">{t("about_call_text")}</p>
                   <a href={"tel:+9940556008483"} className="callmenownumber">
-                    055-600-84-83
+                   Murad625
                   </a>
                 </div>
                 <div>

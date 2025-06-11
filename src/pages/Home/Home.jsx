@@ -125,7 +125,7 @@ function Home() {
                   href={"tel:+9940556008483"}
                   className="callmenownumber"
                 >
-                  055-600-84-83
+                  625gahjznznlk
                 </a>
               </p>
             </div>

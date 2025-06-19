@@ -5,7 +5,7 @@ function SaleOfParts() {
     return (
         <>
           <Helmet>
-        <title>alovservis.az | SalesOfParts</title>
+  <title>Alov servis - Kombi servis,Ucuz və zəmanətli işlər üçün bizimlə əlaqə saxlayın.</title>
       </Helmet>
             <CombiDetalsWrapper/>
         </>

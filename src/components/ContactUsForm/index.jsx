@@ -27,7 +27,7 @@ function ContactUsForm() {
                 <BsFillTelephoneFill />
               </div>
               <h4>{t('contactus-callnumber')}</h4>
-              <a href={"tel:+9940556008483"}>055-600-84-83</a>
+              <a href={"tel:+9940516514104"}>051-651-41-04</a>
             </div>
             <div className={"col-4 col-md-4 col-sm-12 col-xs-12"}>
               <div className={"square"}>

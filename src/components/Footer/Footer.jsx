@@ -31,7 +31,7 @@ function Footer() {
                             </div>
                             <div>
                                 <p className="footer-bottom-number-head">{t("contactus_number_head")}</p>
-                                <a href={'tel:+9940556008483'} className="footer-bottom-number">625625</a>
+                                <a href={'tel:+9940516514104'} className="footer-bottom-number">051-651-41-04</a>
                             </div>
                         </div>
 
@@ -53,7 +53,7 @@ function Footer() {
                                 </p>
                                 <p style={{display: 'flex', alignItems: 'center', gap: '10px'}}><BsFillTelephoneFill/>
 
-                                    <a href={"tel:+9940556008483"}>055-600-84-83</a>
+                                    <a href={"tel:+9940516514104"}>051-651-41-04</a>
                                 </p>
                             </div>
                             <div className="footer-logo">

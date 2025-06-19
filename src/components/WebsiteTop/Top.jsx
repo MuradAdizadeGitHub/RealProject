@@ -13,7 +13,7 @@ function Top() {
                 <div className="topbar-items">
                     <div className="topbar-left">
                         <p><FaLocationDot/>{t('location')}</p>
-                        <p><FaPhone/> 055-600-84-83</p>
+                        <p><FaPhone/> 051-651-41-04</p>
                         <p><MdAttachEmail/> info@alovservis.az</p>
                     </div>
                     <div style={{display: 'flex', alignItems: 'center', gap: '20px', fontSize: '20px'}}>

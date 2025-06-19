@@ -5,7 +5,7 @@ function CombiMaster() {
   return (
     <>
       <Helmet>
-        <title>alovservis.az | Combi Master</title>
+        <title>Alov servis - Kombi servis,Ucuz və zəmanətli işlər üçün bizimlə əlaqə saxlayın.</title>
       </Helmet>
       <WhyDoWe />
     </>

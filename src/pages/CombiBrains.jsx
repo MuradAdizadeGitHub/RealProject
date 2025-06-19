@@ -5,7 +5,7 @@ function CombiBrains() {
   return (
     <>
       <Helmet>
-        <title>alovservis.az | Combi Boards</title>
+      <title>Alov servis - Kombi servis,Ucuz və zəmanətli işlər üçün bizimlə əlaqə saxlayın.</title>
       </Helmet>
       <CombiBoards />
     </>

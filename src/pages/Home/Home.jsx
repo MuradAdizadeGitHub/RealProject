@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>alovservis.az | Home</title>
+        <title>Alov servis - Kombi servis,Ucuz və zəmanətli işlər üçün bizimlə əlaqə saxlayın.</title>
       </Helmet>
 
       <section className="section-home-top">
@@ -56,8 +56,8 @@ function Home() {
               <div className="services-items-opinion-col-3">
                 <div>
                   <p className="callmenowtext">{t("about_call_text")}</p>
-                  <a href={"tel:+9940556008483"} className="callmenownumber">
-                   Murad625
+                  <a href={"tel:+9940516514104"} className="callmenownumber">
+                  051-651-41-04
                   </a>
                 </div>
                 <div>
@@ -122,10 +122,10 @@ function Home() {
               <p className="home-card-tel-head">
                 <a
                   style={{ color: "white" }}
-                  href={"tel:+9940556008483"}
+                  href={"tel:+9940516514104"}
                   className="callmenownumber"
                 >
-                  625gahjznznlk
+                 051-651-41-04
                 </a>
               </p>
             </div>
